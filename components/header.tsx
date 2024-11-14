@@ -17,9 +17,9 @@ export const Header = () => {
       <div className="flex justify-between">
         <div className="flex justify-between items-center gap-10 lg:w-[626px]">
           <div>
-            <h2 className="text-2xl text-[#353535] font-semibold leading-[31.78px]">
+            <h3 className="text-2xl text-[#353535] font-semibold leading-[31.78px]">
               NQB8
-            </h2>
+            </h3>
           </div>
           <nav>
             <ul className="md:flex hidden gap-6">

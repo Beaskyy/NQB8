@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Rebound Grotesque";
+  src: url("/fonts/Rebond\ Grotesque.otf") format("woff2");
+}
+
+h1,
+h2 {
+  font-family: "Rebound Grotesque", sans-serif !important;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;

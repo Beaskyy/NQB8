@@ -34,7 +34,7 @@ export const Services = () => {
         Steering your business toward real growth and measurable success.
       </h1>
       <div
-        className="flex flex-col gap-6 mt-[18px]"
+        className="flex flex-col mt-[18px]"
       >
         {services.map(({title, content, image}) => (
           <div key={title} className="flex lg:flex-row flex-col gap-12 bg-white" style={{ position: "sticky", top: 0 }}>
@@ -43,7 +43,7 @@ export const Services = () => {
             alt="service"
             width={687}
             height={562}
-            className="rounded-2xl"
+            className="rounded-2xl pb-12"
           />
           <div className="max-w-[444.37px]">
             <h2 className="text-[#020120] text-[44px] leading-[68px] tracking-[-1px]">

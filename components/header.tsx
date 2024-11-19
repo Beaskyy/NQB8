@@ -33,7 +33,7 @@ export const Header = () => {
                 <Link href="/careers">Careers</Link>
               </li>
               <li className="text-sm text-black text-center tracking-[-0.15px]">
-                <Link href="/">Testimonials</Link>
+                <Link href="/testimonials">Testimonials</Link>
               </li>
             </ul>
           </nav>
@@ -62,7 +62,7 @@ export const Header = () => {
                         <Link href="/careers">Careers</Link>
                       </li>
                       <li className="text-sm text-black text-center tracking-[-0.15px]">
-                        <Link href="/">Testimonials</Link>
+                        <Link href="/testimonials">Testimonials</Link>
                       </li>
                     </ul>
                   </nav>

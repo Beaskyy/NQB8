@@ -17,9 +17,9 @@ export const Header = () => {
       <div className="flex justify-between">
         <div className="flex justify-between items-center gap-10 lg:w-[626px]">
           <div>
-            <h3 className="text-2xl text-[#353535] font-semibold leading-[31.78px]">
+            <Link href="/" className="text-2xl text-[#353535] font-semibold leading-[31.78px]">
               NQB8
-            </h3>
+            </Link>
           </div>
           <nav>
             <ul className="md:flex hidden gap-6">
@@ -27,7 +27,7 @@ export const Header = () => {
                 <Link href="/">Services</Link>
               </li>
               <li className="text-sm text-black text-center tracking-[-0.15px]">
-                <Link href="/">About us</Link>
+                <Link href="/about">About us</Link>
               </li>
               <li className="text-sm text-black text-center tracking-[-0.15px]">
                 <Link href="/">Careers</Link>
@@ -56,10 +56,10 @@ export const Header = () => {
                         <Link href="/">Services</Link>
                       </li>
                       <li className="text-sm text-black text-center tracking-[-0.15px]">
-                        <Link href="/">About us</Link>
+                        <Link href="/about">About us</Link>
                       </li>
                       <li className="text-sm text-black text-center tracking-[-0.15px]">
-                        <Link href="/">Careers</Link>
+                        <Link href="/careers">Careers</Link>
                       </li>
                       <li className="text-sm text-black text-center tracking-[-0.15px]">
                         <Link href="/">Testimonials</Link>

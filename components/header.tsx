@@ -30,7 +30,7 @@ export const Header = () => {
                 <Link href="/about">About us</Link>
               </li>
               <li className="text-sm text-black text-center tracking-[-0.15px]">
-                <Link href="/">Careers</Link>
+                <Link href="/careers">Careers</Link>
               </li>
               <li className="text-sm text-black text-center tracking-[-0.15px]">
                 <Link href="/">Testimonials</Link>

@@ -73,7 +73,7 @@ const Blogs = () => {
             <div key={index} className="flex flex-col gap-5">
               <div>
                 <div
-                  className={`bg-gray-50 bg-center bg-cover w-full h-[184px] rounded-[5px] mb-2.5`}
+                  className={`bg-center bg-cover w-full h-[184px] rounded-[5px] mb-2.5`}
                   style={{
                     backgroundImage: `url(${image})`,
                   }}

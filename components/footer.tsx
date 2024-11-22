@@ -1,6 +1,5 @@
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import React from "react";
 import { Button } from "./ui/button";
 
 export const Footer = () => {
@@ -37,7 +36,7 @@ export const Footer = () => {
             </p>
             <ul className="flex flex-col lg:gap-[22px] gap-4">
               <li className="text-[#020120] lg:text-xl text-sm leading-[30px]">
-                <Link href="/careers">Career</Link>
+                <Link href="/careers">Careers</Link>
               </li>
               <li className="text-[#020120] lg:text-xl text-sm leading-[30px]">
                 <Link href="/contact">Contact</Link>
@@ -53,10 +52,10 @@ export const Footer = () => {
             </p>
             <ul className="flex flex-col lg:gap-[22px] gap-4">
               <li className="text-[#020120] lg:text-xl text-sm leading-[30px]">
-                <Link href="/careers">Privacy Policy</Link>
+                <Link href="/privacy-policy">Privacy Policy</Link>
               </li>
               <li className="text-[#020120] lg:text-xl text-sm leading-[30px]">
-                <Link href="/contact">Terms & Conditions</Link>
+                <Link href="/terms">Terms & Conditions</Link>
               </li>
             </ul>
           </div>
